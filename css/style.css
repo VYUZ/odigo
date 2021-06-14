@@ -336,12 +336,6 @@ header .row {
   margin-bottom: 77px;
   height: 354px;
 }
-.tours__card-mr {
-  padding-right: 35px;
-}
-.tours__card-ml {
-  padding-left: 35px;
-}
 .tours__card-pic {
   height: 100%;
   object-fit: cover;
@@ -535,23 +529,29 @@ footer {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .tops__card {
+    flex: 0 0 calc(50% - 16px);
+    margin-bottom: 28px;
+  }
+  .tours__card-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    margin-top: 16px;
+  }
+  .tours__card-desc {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 45px;
+  }
 }
-.tours__card-title {
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 45px;
-  margin-top: 16px;
-}
-.tours__card-desc {
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 45px;
-}
-
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .h2__caption {
     margin-bottom: 20px;
+  }
+  .more-link {
+    font-size: 12px;
   }
   .header__burger {
     display: block;
@@ -573,7 +573,6 @@ footer {
   }
   .header__nav-list {
     flex-direction: column;
-    margin-right: 100px;
     align-items: flex-start;
   }
   .header__nav-link {
@@ -609,6 +608,9 @@ footer {
   .intro__question {
     margin: 0 0 20px 0;
   }
+  .intro__search-submit {
+    margin-top: 10px;
+  }
   .tours__card {
     height: auto;
   }
@@ -626,9 +628,38 @@ footer {
     line-height: 20px;
     margin-bottom: 20px;
   }
-
   .tops__card {
     flex: 0 0 100%;
+  }
+  .tops__card-text {
+    padding: 0 10px;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  .footer__item {
+    flex-direction: column;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .benefits__title {
+    top: -132px;
+    font-size: 25px;
+    padding: 45px 100px;
+  }
+  .benefits__card-figure {
+    margin-bottom: 20px;
+  }
+  .benefits__card {
+    margin-bottom: 60px;
+  }
+  .tours__card-text {
+    order: 1;
+  }
+  .tops__card-more {
+    margin: 0 auto;
   }
 }
 

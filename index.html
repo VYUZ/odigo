@@ -40,16 +40,24 @@
             <nav class="header__nav">
               <ul class="header__nav-list">
                 <li class="header__nav-item">
-                  <a href="#!" class="header__nav-link">Articles</a>
+                  <a href="#articles" class="header__nav-link js-scroll"
+                    >Articles</a
+                  >
                 </li>
                 <li class="header__nav-item">
-                  <a href="#!" class="header__nav-link">Locations</a>
+                  <a href="#locations" class="header__nav-link js-scroll"
+                    >Locations</a
+                  >
                 </li>
                 <li class="header__nav-item">
-                  <a href="#!" class="header__nav-link">Videos</a>
+                  <a href="#videos" class="header__nav-link js-scroll"
+                    >Videos</a
+                  >
                 </li>
                 <li class="header__nav-item">
-                  <a href="#!" class="header__nav-link">Sign in</a>
+                  <a href="#sign-in" class="header__nav-link js-scroll"
+                    >Sign in</a
+                  >
                 </li>
               </ul>
               <div class="header__nav-close">
@@ -71,7 +79,7 @@
     <!--MAIN SECTION START-->
     <main>
       <!--INTRO SECTION START-->
-      <section class="intro">
+      <section class="intro" id="sign-in">
         <div class="wrapper">
           <div class="container">
             <div class="row">
@@ -86,7 +94,7 @@
               </div>
             </div>
             <form class="row">
-              <div class="col-md-4 col-xs-6 intro__question">
+              <div class="col-md-4 intro__question">
                 <div class="intro__question-circle"></div>
                 <input
                   type="text"
@@ -95,7 +103,7 @@
                   placeholder="What would you like to do?"
                 />
               </div>
-              <div class="col-md-4 col-xs-6 intro__question">
+              <div class="col-md-4 intro__question">
                 <div class="intro__question-circle"></div>
                 <input
                   type="text"
@@ -121,7 +129,6 @@
       <section class="benefits container">
         <div class="wrapper">
           <h2 class="benefits__title">Benefits of Odigo</h2>
-
           <div class="row between-xs">
             <div class="benefits__card col-md-4 col-xs-12">
               <figure class="benefits__card-figure">
@@ -229,7 +236,7 @@
                 <figcaption class="places__card-title">
                   <h3>Tokyo</h3>
                 </figcaption>
-                <a href="/" class="places__card-link"></a>
+                <a href="#!" class="places__card-link"></a>
               </figure>
             </div>
             <div class="col-md-4 col-xs-12">
@@ -263,7 +270,7 @@
       </section>
       <!--PLACES SECTION END-->
       <!--TOURS SECTION START-->
-      <section class="tours">
+      <section class="tours" id="articles">
         <div class="container">
           <div class="row tours__card">
             <div class="col-md-6 col-xs-12 tours__card-mr">
@@ -310,7 +317,7 @@
       <!--TOURS SECTION END-->
 
       <!--TOPPLACES SECTION START-->
-      <section class="tops">
+      <section class="tops" id="locations">
         <div class="container">
           <h2 class="tops__title h2__caption">Today top places to visit</h2>
           <div class="row tops__cards between-xs">
@@ -419,7 +426,7 @@
       <!--TOPPLACES SECTION END-->
 
       <!--VIDEOS SECTION START-->
-      <section class="videos">
+      <section class="videos" id="videos">
         <div class="videos__wrapper">
           <div class="video__item"></div>
           <iframe
