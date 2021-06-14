@@ -1,1 +1,12 @@
+# Игнорирование логов 
+logs 
+*.log 
+
+# Игнорирование файлов специфичных для IDE 
+.vscode/ 
+
+# browsersync
 browsersync.bat
+
+# Папка с оригинальными картинками
+/img/img_orig
