@@ -7,7 +7,7 @@
     <title>Discover Amazing places in Japan</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/flexboxgrid2.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <!--HEADER START-->
@@ -99,12 +99,7 @@
                   placeholder="What would you like to go?"
                 />
               </div>
-              <button
-                type="submit"
-                name="submit"
-                class="intro__search-submit"
-                placeholder="search"
-              >
+              <button type="submit" name="submit" class="intro__search-submit">
                 search
               </button>
             </form>
@@ -413,19 +408,18 @@
       <!--TOPPLACES SECTION END-->
 
       <!--VIDEOS SECTION START-->
-      <section class="videos" id="videos">
+      <div class="videos" id="videos">
         <div class="videos__wrapper">
           <div class="video__item"></div>
           <iframe
             class="video__element"
             src="https://www.youtube.com/embed/FA1KMCngxa4"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
         </div>
-      </section>
+      </div>
       <!--VIDEOS SECTION END-->
     </main>
     <!--MAIN SECTION END-->
